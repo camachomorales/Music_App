@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme (Dark) -->
+    <style name="Base.Theme.Music" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/background_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/background_dark</item>
+        <item name="android:windowLightNavigationBar">false</item>
+
+        <!-- Dark theme colors -->
+        <item name="colorPrimary">@color/spotify_green</item>
+        <item name="colorPrimaryVariant">@color/spotify_dark_green</item>
+        <item name="colorOnPrimary">@color/text_dark</item>
+
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="colorOnBackground">@color/text_light</item>
+
+        <item name="colorSurface">@color/spotify_black</item>
+        <item name="colorOnSurface">@color/text_light</item>
+
+        <item name="colorAccent">@color/spotify_green</item>
+
+        <!-- Text colors -->
+        <item name="android:textColor">@color/text_light</item>
+        <item name="android:textColorSecondary">@color/text_secondary_dark</item>
+
+        <!-- Divider -->
+        <item name="android:divider">@color/divider_dark</item>
+    </style>
+
+</resources>
